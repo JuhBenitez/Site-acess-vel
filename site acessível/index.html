@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title> Música Brasil</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="p-5">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/logo.png" class="nav-img" alt="Logo  Música Brasil" loading="lazy" />
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#lista-eventos-2025">Calendário de Eventos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade">
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">Acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alternar contraste de cores">
+                        <i class="bi bi-shadows"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
+                    <img src="img/logo-2.png" class="mb-3" width="563"
+                        height="278" loading="lazy">
+                    <a href="#música brasil"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
+              </div>
+        </section>
+
+        <section id="música brasil" class="my-5 pt-6 secao-música brasil" tabindex="0" aria-label="Seção explicativa sobre a música brasil">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="img/imgimage (1).png" class="rounded-pill" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>O que é o Música Brasil?</h2>
+                    <p class="p-2">O Música Brasil traz informações atualizadas sobre os maiores festivais, shows e eventos culturais de música por todo o Brasil. Fique por dentro das datas, locais e artistas envolvidos!</p>
+            </p>
+                </div>
+            </div>
+        </section>
+         <section id="galeria" aria-label="Seção de galeria de imagens" aria-labelledby="titulo-galeria" class="my-5" tabindex="0">
+    <h2 id="titulo-galeria" class="text-center pt-4 mb-4">Galeria</h2>
+    <div class="container p-3 fundo-galeria">
+      <div class="row justify-content-center gy-4">
+        <div class="col-md-4 d-flex justify-content-center">
+          <img src="img/Chico Buarque.jpg" class="img-fluid rounded-3 cursor-pointer" alt="Chico Buarque" loading="lazy" />
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <img src="img/Elis Regina no Teatro da Praia.tif" class="img-fluid rounded-3 cursor-pointer" alt="Elis Regina no Teatro da Praia" loading="lazy" />
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <img src="img/Ney Matogrosso.jpg" class="img-fluid rounded-3 cursor-pointer" alt="Ney Matogrosso em apresentação" loading="lazy" />
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <img src="img/Caetano Veloso.jpg" class="img-fluid rounded-3 cursor-pointer" alt="Caetano Veloso em evento" loading="lazy" />
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <img src="img/Carmen Miranda.jpg" class="img-fluid rounded-3 cursor-pointer" alt="Carmen Miranda" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+        <section id="lista-eventos-2025" aria-label="Calendário de eventos" class="py-5">
+            <h2 id="titulo-eventos-2025" class="mb-4 text-center">Eventos culturais e musicais em 2025</h2>
+            <div class="container bg-white rounded shadow-sm p-4">
+                <div class="list-group mb-3" role="list">
+                    <div class="list-group-item list-group-item-action" role="listitem">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-1">Festival de Inverno de Campos do Jordão</h5>
+                            <small>Junho a Julho de 2025</small>
+                        </div>
+                        <p class="mb-1">Festival com concerts clássicos, jazz e música popular em uma das cidades mais charmosas do Brasil.</p>
+                        <small class="text-muted">Local: Campos do Jordão, SP</small>
+                        <a href="https://festivaldeinverno.org.br" target="_blank" rel="noopener noreferrer" class="d-block mt-2">Site do evento</a>
+                    </div>
+                    <div class="list-group-item list-group-item-action" role="listitem">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-1">Bienal das Artes</h5>
+                            <small>Setembro a janeiro de 2025</small>
+                        </div>
+                        <p class="mb-1">Exposição de artes visuais, instalações e performances, com duração prolongada para maior aproveitamento.</p>
+                        <small class="text-muted">Local: São Paulo, SP</small>
+                        <a href="https://www.bienaldasartes.com.br" target="_blank" rel="noopener noreferrer" class="d-block mt-2">Site do evento</a>
+                    </div>
+                    <div class="list-group-item list-group-item-action" role="listitem">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-1">Festival de Música de Salvador</h5>
+                            <small>Setembro de 2025</small>
+                        </div>
+                        <p class="mb-1">Evento que celebra os ritmos locais como samba, axé e samba-reggae, com shows gratuitos na orla da cidade.</p>
+                        <small class="text-muted">Local: Salvador, BA</small>
+                        <a href="https://festivaldesalvador.com.br" target="_blank" rel="noopener noreferrer" class="d-block mt-2">Site do evento</a>
+                    </div>
+                    <div class="list-group-item list-group-item-action" role="listitem">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-1">CarnaUOL</h5>
+                            <small>Fevereiro de 2025</small>
+                        </div>
+                        <p class="mb-1">Festival de carnaval com shows de artistas internacionais, incluindo Christina Aguilera pela primeira vez no Brasil.</p>
+                        <small class="text-muted">Local: São Paulo, SP</small>
+                        <a href="https://www.carnauol.com.br" target="_blank" rel="noopener noreferrer" class="d-block mt-2">Site do evento</a>
+                    </div>
+                    <div class="list-group-item list-group-item-action" role="listitem">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-1">Oasis</h5>
+                            <small>Novembro de 2025</small>
+                        </div>
+                        <p class="mb-1">Grande festival de música na cidade do Rio de Janeiro, com shows de diversos artistas nacionais e internacionais.</p>
+                        <small class="text-muted">Local: Rio de Janeiro, RJ</small>
+                        <a href="https://www.oasisfestival.com.br" target="_blank" rel="noopener noreferrer" class="d-block mt-2">Site do evento</a>
+                    </div>
+                    <div class="list-group-item list-group-item-action" role="listitem">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-1">Festival Internacional de Teatro de Curitiba</h5>
+                            <small>Agosto de 2025</small>
+                        </div>
+                        <p class="mb-1">Mostra de produções teatrais nacionais e internacionais, com apresentações em diversos teatros da cidade.</p>
+                        <small class="text-muted">Local: Curitiba, PR</small>
+                        <a href="https://www.festivaldecuritiba.com.br" target="_blank" rel="noopener noreferrer" class="d-block mt-2">Site do evento</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="mt-5">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario">
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome completo" />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email" />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
